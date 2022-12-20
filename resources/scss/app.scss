@@ -1,1 +1,17 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+.train {
+    div {
+        width: 7rem;
+    }
+}
+
+footer {
+    span {
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
